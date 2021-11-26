@@ -129,6 +129,9 @@ button{
     box-shadow: 2px 2px 15px grey;
     transition: 1s;
 }
+.transform-hover:hover{
+    transform: translateY(-8%);
+}
 /* //////////////////////////////// */
 /* HEADER  */
 
@@ -164,8 +167,6 @@ button{
         width: 80px;
         margin: 0 5px;
     } 
-    
-    
 }
 @media screen and (min-width: 768px){  
     .d-on{
