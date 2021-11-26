@@ -3,9 +3,26 @@
   padding: 0;
   box-sizing: border-box;
 }
+ul{
+    list-style-type: none;
+    padding-left: none !important;
+}
+/* DISPLAY NONE CLASS */
+.d-off{
+    display: none;
+}
+
 /* MAX-WIDTH CONTAINER PERSONALIZZATI */
 .lg-max-container{
     max-width: 1660px !important;
+}
+
+/* FONTS SIZES */
+.fonts-extra-small{
+    font-size: 0.7rem;
+}
+.font-small{
+    font-size: 0.9rem;
 }
 /* BOTTONE */
 button{
@@ -24,8 +41,11 @@ button{
 .span-button{
     padding: 0 10px;
     border-radius: 20px 20px;
+    font-weight: 600;
 }
+
 /* HOVERBOTTONE */
+
 /* COLORE BOTTONI */
 .r-button{
     background-color: #cd3d0f;
@@ -39,22 +59,18 @@ button{
 .w-button{
     background-color: white;
 }
-/* /////////////////// */
 
+/* /////////////////// */
 /* COLORI BACKGROUND */
 
 /* ///////////////////////// */
-/* BORDER RADIUS PERSONALIZZATO */
+
+/* BORDER RADIUS E MARGIN PERSONALIZZATI */
 .sy-border-r{
     border-radius: 30px 30px;
 }
 /* //////////////////////////// */
-#black-bar img{
-    width: 80px;
-}
-#plays-logo{
-    width: 40px;
-}
+/* JUMBO IMAGES */
 .jumbo-returnal{
     background-image: url("../img/jumbo-bg.png");
     background-position: center;
@@ -69,6 +85,21 @@ button{
     margin-top: 96px;
     height: 800px;
 }
+
+/* ////////////////////////////// */
+/* HEADER  */
+/* BLACKBAR  */
+#black-bar img{
+    width: 80px;
+}
+/* NAV-BAR */
+#plays-logo{
+    width: 40px;
+}
+/* ////////////////////////// */
+ .social-size{
+    width: 200px;
+} 
 
 
 
