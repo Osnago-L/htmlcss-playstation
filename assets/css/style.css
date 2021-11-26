@@ -43,7 +43,14 @@ button{
 }
 
 /* HOVERBOTTONE */
-
+.w-border-hover:hover span{
+    border: 2px solid white;
+    transition: 0.1s;
+}
+.bk-border-hover:hover span{
+    border: 2px solid black;
+    transition: 0.1s;
+}
 /* COLORE BOTTONI */
 .bk-button{
     background-color: black;
