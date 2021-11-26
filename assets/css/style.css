@@ -7,15 +7,16 @@ ul{
     list-style-type: none;
     padding-left: none !important;
 }
+a{
+    text-decoration: none;
+}
 /* DISPLAY NONE CLASS */
 .d-off{
     display: none;
 }
 
 /* MAX-WIDTH CONTAINER PERSONALIZZATI */
-.lg-max-container{
-    max-width: 1660px !important;
-}
+
 
 /* FONTS SIZES */
 .fonts-extra-small{
@@ -62,7 +63,18 @@ button{
 
 /* /////////////////// */
 /* COLORI BACKGROUND */
-
+.black-bg-color{
+ background-color: #1f1f1f;
+}
+.grey-bg-color{
+    background-color: #bebcbb;
+}
+.blue-bg-color{
+    background-color: #00439c;
+}
+.bluedark-bg-color{
+    background-color: #161c3b;
+}
 /* ///////////////////////// */
 
 /* BORDER RADIUS E MARGIN PERSONALIZZATI */
@@ -100,7 +112,19 @@ button{
  .social-size{
     width: 200px;
 } 
+#copyright img{
+    width: 150px;
+}
 
+/* MEDIA QUERY */
+@media screen and (min-width: 1400px){
+/* MAX-WIDTH CONTAINER PERSONALIZZATI */
+.lg-max-container{
+    max-width: 1800px !important;
+    padding: 0 30px;
+}
+
+}
 
 
 
