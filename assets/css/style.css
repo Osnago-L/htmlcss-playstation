@@ -111,6 +111,17 @@ button{
 }
 
 /* ////////////////////////////// */
+/* EFFETTI */
+.opacity-fixed{
+    filter: opacity(0.7);
+}
+/* HOVER EFFETTI */
+
+.opacity-hover:hover{
+    filter: opacity(1);
+    transition: 1s;
+}
+/* //////////////////////////////// */
 /* HEADER  */
 
 /* BLACKBAR  */
