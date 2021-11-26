@@ -121,6 +121,14 @@ button{
     filter: opacity(1);
     transition: 1s;
 }
+.box-shadow-hover:hover{
+    box-shadow: 2px 2px 15px black;
+    transition: 1s;
+}
+.box-shadow-button-hover:hover{
+    box-shadow: 2px 2px 15px grey;
+    transition: 1s;
+}
 /* //////////////////////////////// */
 /* HEADER  */
 
