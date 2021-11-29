@@ -181,13 +181,14 @@ button{
     border-radius: 0 0 !important;
 }
 /* ////////////////////////// */
-
+/* FOOTER  */
  .social-size{
     width: 200px;
 } 
 #copyright img{
     width: 150px;
 }
+/* /////////////////////// */
 
 /* MEDIA QUERY */
 @media screen and (min-width: 576px){
@@ -225,3 +226,4 @@ button{
     padding: 0 30px;
 }
 }
+/* /////////////////////////// */
