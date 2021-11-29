@@ -16,12 +16,15 @@ a{
     display: none;
 }
 
-/* FONTS SIZES */
+/* FONTS SIZES AND TEXT RELATED CLASSES */
 .fonts-extra-small{
     font-size: 0.7rem;
 }
 .font-small{
     font-size: 0.9rem;
+}
+.white-space-text{
+    white-space: nowrap;
 }
 /* BOTTONE */
 button{
@@ -135,7 +138,17 @@ button{
     transform: translateY(-8%);
 }
 .blue-color-hover:hover{
-    color: blue;
+    color:  #0086ff!important;
+}
+.menu-toogle-show:hover img:nth-child(2){
+    display: inline-block !important;
+    
+}
+.menu-toogle-none:hover img:nth-child(1){
+    display: none !important;
+}
+.menu-toogle-show:active img:nth-child(2){
+    transform: scaleY(-1);
 }
 /* //////////////////////////////// */
 /* HEADER  */
@@ -150,6 +163,9 @@ button{
 }
 .play-logo-nav{
     width: 100px;
+}
+.dropdown-image{
+    width: 10px;
 }
 .lens-icon{
     width: 30px;
