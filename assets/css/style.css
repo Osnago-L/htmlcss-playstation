@@ -140,15 +140,24 @@ button{
 .blue-color-hover:hover{
     color:  #0086ff!important;
 }
-.menu-toogle-show:hover img:nth-child(2){
+.menu-toogle-show:hover img:nth-child(3){
     display: inline-block !important;
     
 }
-.menu-toogle-none:hover img:nth-child(1){
+.menu-toogle-none:hover img:nth-child(2){
     display: none !important;
 }
-.menu-toogle-show:active img:nth-child(2){
+.nav-link img:nth-child(3) {
     transform: scaleY(-1);
+}
+.show>.upside-arrow{
+    display: inline-block!important;
+}
+.show>.normal-arrow{
+    display: none !important;
+}
+.show>.nav-title-link{
+    color:  #0086ff!important;
 }
 /* //////////////////////////////// */
 /* HEADER  */
@@ -189,7 +198,6 @@ button{
     width: 150px;
 }
 /* /////////////////////// */
-
 /* MEDIA QUERY */
 @media screen and (min-width: 576px){
     .social-size{
